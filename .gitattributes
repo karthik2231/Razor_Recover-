@@ -1,0 +1,26 @@
+# Normalize line endings for all text files to LF on commit.
+# This prevents CRLF/LF mixed diffs across Windows and macOS contributors.
+* text=auto eol=lf
+
+# Python source — always LF
+*.py text eol=lf
+
+# JS/JSX/CSS — always LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+
+# Config files — always LF
+*.json text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+
+# Binary — no line-ending transformation
+*.db binary
+*.png binary
+*.jpg binary
+*.webp binary

@@ -1,0 +1,28 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Node / Frontend dependencies & builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Frontend secrets (VITE_* vars are baked into the bundle — never commit)
+frontend/.env
+frontend/.env.local
+
+.vscode/
+recovery_cases.db
+data/audit_log.jsonl
+.pytest_cache/
+.pytest-runtime/
+.pytest-tmp/
+.coverage
+htmlcov/
+*.log
+
+# Leftover IDE workspace temp copies
+Temprevenue-rescue-*/

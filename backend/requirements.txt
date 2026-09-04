@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+google-genai
+python-dotenv
+razorpay
+pytest
+httpx2
